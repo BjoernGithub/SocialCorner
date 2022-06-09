@@ -1,0 +1,161 @@
+:root{
+    --color-background: #F2E8DE;
+    --color-blue: #81BCBC;
+    --color-orange: #E8A649;
+    --color-orange2: #D0702A;
+    --color-text: #2F2318;
+    --color-lighter-text: #59493D;
+
+    --font-main: 'Arial', Helvetica, sans-serif;
+}
+
+
+body{
+    margin: 0;
+    background-color: var(--color-background);
+}
+
+header{
+    margin: 0;
+    background-color: var(--color-blue);
+}
+
+/* Header start */
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+
+    padding-top: 6rem;
+    width: 25%;
+}
+
+.title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+
+    padding-top: 3rem;
+    width: 75%;
+}
+
+h3{
+    font-size: 3.6rem;
+    font-family: var(--font-main);
+    font-weight: lighter;
+    color: var(--color-text);
+    text-align: center;
+
+    margin-top: 25px;
+    padding-bottom: 3rem;
+}
+/* Header end */
+
+
+/* Dropdown menu start */
+.menu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+
+    width: 15%;
+    padding-bottom: 5rem;
+}
+
+.dropdown{
+    position:relative;
+    display: inline-block;
+
+    width: 100%;
+    align-content: center;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: var(--color-blue);
+    width: 100%;
+    z-index: 1;
+
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.dropdown-content a{
+    display: block;
+    
+    font-size: 4rem;
+    font-family: var(--font-main);
+    font-weight: bold;
+    color: var(--color-background);
+    text-decoration: none;
+
+    padding-left: 5rem;
+    padding-bottom: 2.5rem;
+}
+
+/* Menu close button - currently not working */ /*
+.close{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+
+    width: 12%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+*/
+
+.dropdown:hover .dropdown-content {display: block;}
+/* Dropdown menu end */
+
+
+/* Footer start */
+.contacts{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+    width: 100%;
+    background-color: var(--color-blue);
+
+    position: static;
+    left: 0;
+    bottom: 0;
+}
+
+.contacts-fixed{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+    width: 100%;
+    background-color: var(--color-blue);
+
+    position: fixed; /* Fixes footer placement on short pages */
+    left: 0;
+    bottom: 0;
+}
+
+.contact-item{
+    font-size: 3.6rem;
+    font-family: var(--font-main);
+    color: var(--color-lighter-text);
+    text-align: center;
+}
+/* Footer end */
+
+
+h1{
+    font-size: 5.5rem;
+    font-family: var(--font-main);
+    font-weight: bolder;
+    color: var(--color-orange2);
+    text-align: left;
+
+    margin-top: 8rem;
+    margin-left: 5.6rem;
+    margin-bottom: -1.2rem;
+}
+
