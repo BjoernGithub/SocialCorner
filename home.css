@@ -1,0 +1,125 @@
+:root{
+    --color-background: #F2E8DE;
+    --color-blue: #1ca0a0;
+    --color-orange: #E8A649;
+    --color-orange2: #D0702A;
+    --color-text: #2F2318;
+    --color-lighter-text: #59493D;
+
+    --font-main: 'Arial', Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+/* Navigation Bar */
+#nabar{
+    display: flex;
+}
+
+#navbar::before{
+    content: "";
+    background-color: #1ca0a0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/*navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 35px;
+}
+
+#logo img{
+    height: 50px;
+    margin: 3px 6px;
+}
+
+#logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #59493D;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar {
+    position: relative;
+}
+
+#navbar ul{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: #F2E8DE;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background-color: #F2E8DE;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89s;
+}
+
+#home h1{
+    color: #E8A649;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 40px;
+    top: 0;
+    left: 30px;
+}
+
+#home p{
+    color: #59493D;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro{
+    height: 100vh;
+    position: relative;
+    background-color: #F2E8DE;
+}
+
+.slideshow-img{
+    position: absolute;
+    top: 0;
+    left: 55px;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    object-fit: cover;
+    display: none;
+}
+/* .slideshow-img:first-child{
+    display: block;
+} */
