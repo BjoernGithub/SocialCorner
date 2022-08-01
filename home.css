@@ -6,14 +6,16 @@
     --color-lighter-text: #59493D;
     --color-text: #2F2318;
 
-    --font-main: 'Arial', Helvetica, sans-serif;
+    --font-heading: Paytone One;
+    --font-sub: Raleway;
+    --font-text: Cabin;
 }
 
 
 body{
     margin: 0;
     background-color: var(--color-background);
-    font-family: var(--font-main);
+    font-family: var(--font-text);
 }
 
 header{
@@ -44,8 +46,7 @@ header{
 
 h3{
     font-size: 3.6rem;
-    font-family: var(--font-main);
-    font-weight: lighter;
+    font-family: var(--font-sub);
     color: var(--color-text);
     text-align: center;
 
@@ -88,7 +89,7 @@ h3{
     display: block;
     
     font-size: 4rem;
-    font-family: var(--font-main);
+    font-family: var(--font-sub);
     font-weight: bold;
     color: var(--color-background);
     text-decoration: none;
@@ -140,7 +141,7 @@ h3{
 
 .contact-item{
     font-size: 3.6rem;
-    font-family: var(--font-main);
+    font-family: var(--font-text);
     color: var(--color-lighter-text);
     text-align: center;
 }
@@ -151,7 +152,7 @@ h3{
 /* Home Section */
 #home h1{
     font-size: 5.5rem;
-    font-family: var(--font-main);
+    font-family: var(--font-heading);
     font-weight: bolder;
     color: var(--color-orange2);
     text-align: left;
@@ -163,7 +164,7 @@ h3{
 
 #home p{
     font-size: 2.5rem;
-    font-family: var(--font-main);
+    font-family: var(--font-text);
     color: var(--color-text);
     text-align: left;
 
