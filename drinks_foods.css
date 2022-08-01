@@ -3,8 +3,8 @@
     --color-blue: #81BCBC;
     --color-orange: #E8A649;
     --color-orange2: #D0702A;
-    --color-text: #2F2318;
     --color-lighter-text: #59493D;
+    --color-text: #2F2318;
 
     --font-main: 'Arial', Helvetica, sans-serif;
 }
@@ -212,8 +212,7 @@ h1{
 
     width: 80%;
     margin-top: 4rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5.8rem;
     margin-bottom: 4rem;
 }
 .df-menu p{
